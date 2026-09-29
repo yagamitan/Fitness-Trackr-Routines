@@ -10,6 +10,7 @@ export default function Navbar() {
       <p>Fitness Trackr</p>
       <nav>
         <a onClick={() => setPage("activities")}>Activities</a>
+        <a onClick={() => setPage("routines")}>Routines</a>
         {token ? (
           <a onClick={() => logout()}>Log out</a>
         ) : (
